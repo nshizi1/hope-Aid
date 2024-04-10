@@ -13,6 +13,9 @@ export default {
         '10p': '10%',
         '5p': '5%',
       },
+      aspectRatio: {
+        '1/5': '1.5',
+      },
     },
   },
   plugins: [],

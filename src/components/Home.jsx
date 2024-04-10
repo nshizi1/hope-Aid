@@ -1,5 +1,8 @@
 import Hero from "../images/hero.jpg";
 import Goal from "../images/goal.jpg";
+import outOne from "../images/outOne.jpg";
+import outTwo from "../images/outTwo.jpg";
+import outThree from "../images/outThree.jpg";
 
 function Home() {
   return (
@@ -49,12 +52,39 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="goals">
+      <section className="px-5p grid grid-cols-2 gap-8" id="goals">
         <div>
-          <img src={Goal} alt="" />
+          <img className="h-4/5" src={Goal} alt="" />
         </div>
         <div>
-
+          <h1 className="text-3xl font-bold text-slate-800 capitalize">Our goals</h1>
+          <p className="text-amber-600 font-semibold mt-5">Hello, it is really a pain to be followed. Who, when.</p>
+          <p className="mt-5">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+          <p className="mt-5">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+          <p className="mt-5">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+          <p className="mt-5">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+        </div>
+      </section>
+      <section className="px-5p" id="outReach">
+        <div className="title">
+          <h1 className="mb-6 text-slate-700 text-2xl font-bold">Our Outreach</h1>
+          <div className="grid grid-cols-3 gap-5">
+            <div>
+              <img className="w-full aspect-1/5 object-cover" src={outOne} alt="outImage" />
+              <p className="mt-4 font-semibold text-lg text-slate-600">Hello, it is really a pain to be followed. Who, when.</p>
+              <p className="text-slate-800">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+            </div>
+            <div>
+              <img className="w-full aspect-1/5 object-cover" src={outTwo} alt="outImage" />
+              <p className="mt-4 font-semibold text-lg text-slate-600">Hello, it is really a pain to be followed. Who, when.</p>
+              <p className="text-slate-800">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+            </div>
+            <div>
+              <img className="w-full aspect-1/5 object-cover" src={outThree} alt="outImage" />
+              <p className="mt-4 font-semibold text-lg text-slate-600">Hello, it is really a pain to be followed. Who, when.</p>
+              <p className="text-slate-800">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
