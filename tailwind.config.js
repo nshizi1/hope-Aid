@@ -16,6 +16,12 @@ export default {
       aspectRatio: {
         '1/5': '1.5',
       },
+      brightness: {
+        '25': '.25',
+      }, 
+      width: {
+        '35/5': '70%',
+      }
     },
   },
   plugins: [],

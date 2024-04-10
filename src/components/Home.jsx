@@ -3,6 +3,9 @@ import Goal from "../images/goal.jpg";
 import outOne from "../images/outOne.jpg";
 import outTwo from "../images/outTwo.jpg";
 import outThree from "../images/outThree.jpg";
+import divOne from "../images/divOne.jpg";
+import divTwo from "../images/divTwo.jpg";
+
 
 function Home() {
   return (
@@ -203,6 +206,24 @@ function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="division" className="px-5p grid grid-cols-2 gap-4 mt-10">
+        <div className="relative">
+          <img className="w-full aspect-1/5 object-cover brightness-25" src={divOne} alt="" />
+          <div className="absolute top-0 px-5p w-35/5 h-full flex flex-col text-slate-100 justify-center">
+            <p className="font-bold text-2xl mb-3">Advancing women&apos;s  right:</p>
+            <p>The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+            <a href="#"><button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">Donate Now</button></a>
+          </div>
+        </div>
+        <div className="relative">
+          <img className="w-full aspect-1/5 object-cover brightness-25" src={divTwo} alt="" />
+          <div className="absolute top-0 px-5p w-35/5 h-full flex flex-col text-slate-100 justify-center">
+            <p className="font-bold text-2xl mb-3">Advancing women&apos;s  right:</p>
+            <p>The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
+            <a href="#"><button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">Donate Now</button></a>
           </div>
         </div>
       </section>
