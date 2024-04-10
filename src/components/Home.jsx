@@ -5,7 +5,14 @@ import outTwo from "../images/outTwo.jpg";
 import outThree from "../images/outThree.jpg";
 import divOne from "../images/divOne.jpg";
 import divTwo from "../images/divTwo.jpg";
-
+import logoOne from "../images/logoOne.png";
+import logoTwo from "../images/logoTwo.png";
+import logoThree from "../images/logoThree.png";
+import logoFour from "../images/logoFour.png";
+import teamOne from "../images/teamOne.jpg";
+import teamTwo from "../images/teamTwo.jpg";
+import teamThree from "../images/teamThree.jpg";
+import teamFour from "../images/teamFour.jpg";
 
 function Home() {
   return (
@@ -211,21 +218,75 @@ function Home() {
       </section>
       <section id="division" className="px-5p grid grid-cols-2 gap-4 mt-10">
         <div className="relative">
-          <img className="w-full aspect-1/5 object-cover brightness-25" src={divOne} alt="" />
+          <img
+            className="w-full aspect-1/5 object-cover brightness-25"
+            src={divOne}
+            alt=""
+          />
           <div className="absolute top-0 px-5p w-35/5 h-full flex flex-col text-slate-100 justify-center">
-            <p className="font-bold text-2xl mb-3">Advancing women&apos;s  right:</p>
-            <p>The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
-            <a href="#"><button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">Donate Now</button></a>
+            <p className="font-bold text-2xl mb-3">
+              Advancing women&apos;s right:
+            </p>
+            <p>
+              The company itself is a very successful company. Wherefore he is
+              assailed by the things to which flight is an option, except that
+              the mind should assume something convenient, or follow the
+              troubles which some one here rejects.
+            </p>
+            <a href="#">
+              <button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">
+                Donate Now
+              </button>
+            </a>
           </div>
         </div>
         <div className="relative">
-          <img className="w-full aspect-1/5 object-cover brightness-25" src={divTwo} alt="" />
+          <img
+            className="w-full aspect-1/5 object-cover brightness-25"
+            src={divTwo}
+            alt=""
+          />
           <div className="absolute top-0 px-5p w-35/5 h-full flex flex-col text-slate-100 justify-center">
-            <p className="font-bold text-2xl mb-3">Advancing women&apos;s  right:</p>
-            <p>The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
-            <a href="#"><button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">Donate Now</button></a>
+            <p className="font-bold text-2xl mb-3">
+              Advancing women&apos;s right:
+            </p>
+            <p>
+              The company itself is a very successful company. Wherefore he is
+              assailed by the things to which flight is an option, except that
+              the mind should assume something convenient, or follow the
+              troubles which some one here rejects.
+            </p>
+            <a href="#">
+              <button className="bg-amber-500 transition ease duration-500 hover:bg-amber-400 py-2 px-6 rounded-3xl mt-3">
+                Donate Now
+              </button>
+            </a>
           </div>
         </div>
+      </section>
+      <section id="brands" className="px-5p grid grid-cols-4 gap-4 mt-10">
+        <div className="flex justify-center">
+          <img className="h-24  grayscale" src={logoOne} alt="logo" />
+        </div>
+        <div className="flex justify-center">
+          <img className="h-24  grayscale" src={logoTwo} alt="logo" />
+        </div>
+        <div className="flex justify-center">
+          <img className="h-24  grayscale" src={logoThree} alt="logo" />
+        </div>
+        <div className="flex justify-center">
+          <img className="h-24  grayscale" src={logoFour} alt="logo" />
+        </div>
+      </section>
+      <section id="team" className="px-5p py-10 bg-emerald-100 mt-10 flex flex-col gap-10 items-center justify-center">
+        <h1 className="font-bold text-2xl text-slate-700">Meet Our Team</h1>
+        <div className="flex gap-10">
+          <img className="w-16 h-16 rounded-full" src={teamOne} alt="teamImage" />
+          <img className="w-16 h-16 rounded-full" src={teamTwo} alt="teamImage" />
+          <img className="w-16 h-16 rounded-full" src={teamThree} alt="teamImage" />
+          <img className="w-16 h-16 rounded-full" src={teamFour} alt="teamImage" />
+        </div>
+        <p className="w-3/5 text-center text-slate-600">The company itself is a very successful company. Wherefore he is assailed by the things to which flight is an option, except that the mind should assume something convenient, or follow the troubles which some one here rejects.</p>
       </section>
     </main>
   );
