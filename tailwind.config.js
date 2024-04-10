@@ -7,4 +7,13 @@ export default {
   theme: {
     extend: {
       margin: {
-       
+        '5p': '5%',
+      },
+      padding: {
+        '10p': '10%',
+        '5p': '5%',
+      },
+    },
+  },
+  plugins: [],
+}
